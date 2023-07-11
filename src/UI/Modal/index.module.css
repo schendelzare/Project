@@ -19,7 +19,7 @@
   border-style: solid;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 375px) {
   .modal {
     width: 30rem;
     left: calc(50% - 16rem);
