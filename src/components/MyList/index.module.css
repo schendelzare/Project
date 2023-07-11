@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  width: auto;
+  height: 740px;
+
+  justify-content: center;
+  margin: 1rem auto;
+  overflow: auto;
+}
+
+.container h1 {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.container ul li {
+  display: flex;
+  border-bottom: solid;
+  padding: 10px 10px 0;
+  height: 160px;
+  width: auto;
+}
+
+.container header {
+  height: 120px;
+}
+.container img {
+  height: auto;
+  width: 95px;
+  height: 8.5rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 0 20px;
+}

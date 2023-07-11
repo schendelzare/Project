@@ -1,0 +1,25 @@
+.container button {
+  padding: 5px 20px;
+  border-style: hidden;
+  background-color: transparent;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-style: solid;
+  border-color: rgb(128, 204, 6);
+  color: whitesmoke;
+}
+
+.container button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  scale: 1.1;
+  transition: 0.4s;
+}
+.container button:active {
+  color: whitesmoke;
+  box-shadow: 0 2px #666;
+  transform: translateY(5px);
+}

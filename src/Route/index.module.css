@@ -1,0 +1,16 @@
+.my-list .list {
+  width: 1000px;
+}
+
+.container .my-list {
+  position: fixed;
+  top: 100px;
+  left: -670px;
+
+  transition: ease 0.3s;
+}
+
+.container:hover .my-list:hover {
+  left: -320px;
+  transition: ease 0.3s;
+}
