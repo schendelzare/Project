@@ -17,12 +17,14 @@
   z-index: 30;
   animation: slide-down 300ms ease-out forwards;
   border-style: solid;
+   width: 30rem;
+  left: calc(50% - 16rem);
 }
 
-@media (min-width: 375px) {
+@media (max-width: 540px) {
   .modal {
     width: 30rem;
-    left: calc(50% - 16rem);
+    left: calc(50% - 15rem);
   }
 }
 
